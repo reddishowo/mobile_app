@@ -1,0 +1,27 @@
+name: user_repository
+description: Repository that handles user
+version: 0.0.1
+
+environment: 
+  sdk: ^3.5.3
+
+dependencies: 
+  flutter:
+    sdk: flutter
+  equatable: ^2.0.5
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.3
+  flutter_bloc: ^8.1.6
+  bloc: ^8.1.4
+  firebase_core: ^3.6.0
+
+
+
+dev_dependencies:
+  flutter_test: 
+    sdk: flutter 
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
